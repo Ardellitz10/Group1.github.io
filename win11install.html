@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    /* Return Button Styling */
+    .return-btn {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background-color: #0078d7;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+    .return-btn:hover {
+      background-color: #005fa3;
+    }
+    /* PDF Container */
+    .pdf-container {
+      margin-top: 60px; /* leave space for button */
+    }
+    embed {
+      width: 90%;
+      height: 90vh; /* fill most of the screen */
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Return Home Button -->
+  <button class="return-btn" onclick="window.location.href='index.html'">Return Home</button>
+
+  <!-- PDF Viewer -->
+  <div class="pdf-container">
+    <embed src="c:\Users\josha\Downloads\Group Windows 11 Set Up Documentation.pdf" type="Windows 11 Install" />
+  </div>
+
+</body>
+</html>

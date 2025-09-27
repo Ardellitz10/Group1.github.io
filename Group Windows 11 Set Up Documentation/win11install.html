@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft10{font-size:16px;font-family:Times;color:#000000;}
+	.ft11{font-size:19px;font-family:Times;color:#000000;}
+	.ft12{font-size:19px;font-family:Times;color:#232323;}
+	.ft13{font-size:19px;font-family:Times;color:#232323;}
+	.ft14{font-size:16px;font-family:Times;color:#232323;}
+	.ft15{font-size:16px;line-height:23px;font-family:Times;color:#232323;}
+	.ft16{font-size:16px;line-height:22px;font-family:Times;color:#232323;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page1-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="target001.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:459px;white-space:nowrap" class="ft10">&#160;</p>
+<p style="position:absolute;top:143px;left:459px;white-space:nowrap" class="ft10">&#160;</p>
+<p style="position:absolute;top:181px;left:459px;white-space:nowrap" class="ft10">&#160;</p>
+<p style="position:absolute;top:218px;left:280px;white-space:nowrap" class="ft11">Group Windows&#160;11&#160;Install&#160;Documentation&#160;</p>
+<p style="position:absolute;top:257px;left:213px;white-space:nowrap" class="ft11">(Jonathan Puddie, Benjamin&#160;</p>
+<p style="position:absolute;top:257px;left:456px;white-space:nowrap" class="ft12">Gustafson, Joshua Ardellitz)&#160;</p>
+<p style="position:absolute;top:284px;left:455px;white-space:nowrap" class="ft12">&#160;</p>
+<p style="position:absolute;top:311px;left:330px;white-space:nowrap" class="ft13"><b>Creating&#160;a virtual&#160;machine:&#160;&#160;</b></p>
+<p style="position:absolute;top:338px;left:455px;white-space:nowrap" class="ft12">&#160;</p>
+<p style="position:absolute;top:365px;left:135px;white-space:nowrap" class="ft12">1.&#160;&#160;Go to&#160;ESXi&#160;server&#160;“10.25.1.3”&#160;</p>
+<p style="position:absolute;top:393px;left:162px;white-space:nowrap" class="ft12">-&#160;&#160;<b>Note:</b>&#160;Make&#160;sure you’re&#160;connected&#160;to a VPN&#160;to use VMware ESXi&#160;</p>
+<p style="position:absolute;top:422px;left:135px;white-space:nowrap" class="ft14">2.&#160;</p>
+<p style="position:absolute;top:420px;left:162px;white-space:nowrap" class="ft12">Sign in with&#160;your&#160;SVCCISDEPT&#160;account</p>
+<p style="position:absolute;top:422px;left:511px;white-space:nowrap" class="ft14">&#160;</p>
+<p style="position:absolute;top:447px;left:108px;white-space:nowrap" class="ft15">&#160;<br/>&#160;</p>
+<p style="position:absolute;top:862px;left:810px;white-space:nowrap" class="ft14">&#160;</p>
+<p style="position:absolute;top:881px;left:108px;white-space:nowrap" class="ft15">&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft20{font-size:16px;font-family:Times;color:#232323;}
+	.ft21{font-size:16px;font-family:Times;color:#000000;}
+	.ft22{font-size:19px;font-family:Times;color:#232323;}
+	.ft23{font-size:16px;line-height:23px;font-family:Times;color:#232323;}
+	.ft24{font-size:16px;line-height:22px;font-family:Times;color:#232323;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page2-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="target002.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft24">&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;</p>
+<p style="position:absolute;top:525px;left:162px;white-space:nowrap" class="ft21">&#160;</p>
+<p style="position:absolute;top:551px;left:162px;white-space:nowrap" class="ft22">&#160;</p>
+<p style="position:absolute;top:578px;left:162px;white-space:nowrap" class="ft21">&#160;</p>
+<p style="position:absolute;top:604px;left:459px;white-space:nowrap" class="ft21">&#160;</p>
+<p style="position:absolute;top:641px;left:459px;white-space:nowrap" class="ft21">&#160;</p>
+<p style="position:absolute;top:679px;left:459px;white-space:nowrap" class="ft21">&#160;</p>
+<p style="position:absolute;top:716px;left:459px;white-space:nowrap" class="ft21">&#160;</p>
+<p style="position:absolute;top:754px;left:459px;white-space:nowrap" class="ft21">&#160;</p>
+<p style="position:absolute;top:791px;left:459px;white-space:nowrap" class="ft21">&#160;</p>
+<p style="position:absolute;top:829px;left:459px;white-space:nowrap" class="ft21">&#160;</p>
+<p style="position:absolute;top:866px;left:459px;white-space:nowrap" class="ft21">&#160;</p>
+<p style="position:absolute;top:904px;left:459px;white-space:nowrap" class="ft21">&#160;</p>
+<p style="position:absolute;top:942px;left:135px;white-space:nowrap" class="ft21">3.&#160;&#160;On&#160;the&#160;left-hand&#160;side&#160;where&#160;it&#160;says&#160;virtual&#160;machines,&#160;right&#160;click&#160;and&#160;select&#160;</p>
+<p style="position:absolute;top:967px;left:162px;white-space:nowrap" class="ft21">“create/register&#160;VM”&#160;</p>
+<p style="position:absolute;top:1005px;left:162px;white-space:nowrap" class="ft21">&#160;</p>
+<p style="position:absolute;top:1042px;left:459px;white-space:nowrap" class="ft21">&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft30{font-size:16px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page3-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="target003.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:459px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:146px;left:459px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:183px;left:459px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:221px;left:108px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:258px;left:459px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:296px;left:108px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:333px;left:108px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:371px;left:108px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:408px;left:108px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:446px;left:108px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:483px;left:108px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:521px;left:108px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:559px;left:108px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:596px;left:135px;white-space:nowrap" class="ft30">4.&#160;&#160;Hit&#160;“Create&#160;a&#160;new&#160;virtual&#160;machine”&#160;and&#160;click&#160;next&#160;</p>
+<p style="position:absolute;top:634px;left:162px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:671px;left:162px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:709px;left:162px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:746px;left:162px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:784px;left:162px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:821px;left:162px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:859px;left:162px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:897px;left:162px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:934px;left:162px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:972px;left:162px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:1009px;left:162px;white-space:nowrap" class="ft30">&#160;</p>
+<p style="position:absolute;top:1047px;left:135px;white-space:nowrap" class="ft30">5.&#160;&#160;Name&#160;the&#160;VM&#160;“WIN11Group#&#160;“&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft40{font-size:16px;font-family:Times;color:#000000;}
+	.ft41{font-size:16px;line-height:25px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page4-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="target004.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:135px;white-space:nowrap" class="ft41">6.&#160;&#160;Change&#160;the&#160;guest&#160;OS&#160;family&#160;to&#160;windows&#160;<br/>7.&#160;&#160;Change&#160;guest&#160;OS&#160;version&#160;to&#160;Windows&#160;10&#160;(64-bit),&#160;then&#160;click&#160;next&#160;</p>
+<p style="position:absolute;top:171px;left:108px;white-space:nowrap" class="ft40">&#160;</p>
+<p style="position:absolute;top:209px;left:108px;white-space:nowrap" class="ft40">&#160;</p>
+<p style="position:absolute;top:209px;left:324px;white-space:nowrap" class="ft40">&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft50{font-size:16px;font-family:Times;color:#000000;}
+	.ft51{font-size:16px;line-height:25px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page5-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="target005.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:146px;left:108px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:183px;left:108px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:221px;left:108px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:258px;left:108px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:296px;left:108px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:333px;left:108px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:371px;left:108px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:408px;left:108px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:446px;left:135px;white-space:nowrap" class="ft50">8.&#160;&#160;Select&#160;“DataStore1”&#160;and&#160;click&#160;next&#160;</p>
+<p style="position:absolute;top:483px;left:108px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:521px;left:162px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:559px;left:162px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:596px;left:162px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:634px;left:162px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:671px;left:162px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:709px;left:162px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:746px;left:162px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:784px;left:162px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:821px;left:162px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:859px;left:135px;white-space:nowrap" class="ft51">9.&#160;&#160;Assign&#160;4&#160;CPUs&#160;<br/>10.&#160;Change&#160;the&#160;RAM&#160;to&#160;16&#160;GB&#160;(under&#160;Memory)&#160;<br/>11.&#160;Change&#160;hard&#160;drive&#160;to&#160;80&#160;GB&#160;(under&#160;Hard&#160;disk&#160;1)&#160;<br/>12.&#160;Under&#160;“Network&#160;Adapter&#160;1”,&#160;change&#160;it&#160;to&#160;VM&#160;network&#160;</p>
+<p style="position:absolute;top:973px;left:108px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:1011px;left:108px;white-space:nowrap" class="ft50">&#160;</p>
+<p style="position:absolute;top:1048px;left:108px;white-space:nowrap" class="ft50">&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft60{font-size:16px;font-family:Times;color:#000000;}
+	.ft61{font-size:22px;font-family:Times;color:#000000;}
+	.ft62{font-size:22px;font-family:Times;color:#000000;}
+	.ft63{font-size:22px;line-height:34px;font-family:Times;color:#000000;}
+	.ft64{font-size:16px;line-height:25px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page6-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="target006.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:146px;left:162px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:183px;left:162px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:221px;left:162px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:258px;left:162px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:296px;left:162px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:333px;left:162px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:371px;left:162px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:408px;left:162px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:446px;left:135px;white-space:nowrap" class="ft60">13.&#160;Under&#160;CD/DVD&#160;drive&#160;1&#160;attach&#160;iso&#160;file&#160;(click&#160;dropdown)&#160;→&#160;select&#160;data&#160;store&#160;iso&#160;file&#160;→&#160;</p>
+<p style="position:absolute;top:471px;left:162px;white-space:nowrap" class="ft60">click&#160;DataStore1&#160;→&#160;ISO&#160;FILES&#160;→&#160;Windows&#160;11&#160;then&#160;click&#160;next&#160;&#160;</p>
+<p style="position:absolute;top:497px;left:135px;white-space:nowrap" class="ft60">14.&#160;&#160;Click&#160;finish&#160;&#160;</p>
+<p style="position:absolute;top:523px;left:162px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:548px;left:162px;white-space:nowrap" class="ft63">&#160;<br/><b>Installing&#160;Windows 11:&#160;</b></p>
+<p style="position:absolute;top:616px;left:162px;white-space:nowrap" class="ft64">&#160;<br/>&#160;<br/>&#160;</p>
+<p style="position:absolute;top:705px;left:108px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:743px;left:108px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:780px;left:108px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:818px;left:162px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:843px;left:135px;white-space:nowrap" class="ft64">15.&#160;&#160;Start&#160;the&#160;VM&#160;<br/>16.&#160;&#160;Upon&#160;the&#160;first&#160;boot&#160;make&#160;sure&#160;to&#160;get&#160;into&#160;the&#160;VM&#160;quick&#160;and&#160;hit&#160;any&#160;key&#160;to&#160;boot&#160;from&#160;</p>
+<p style="position:absolute;top:894px;left:162px;white-space:nowrap" class="ft60">CD&#160;</p>
+<p style="position:absolute;top:932px;left:108px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:969px;left:108px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:1007px;left:108px;white-space:nowrap" class="ft60">&#160;</p>
+<p style="position:absolute;top:1045px;left:108px;white-space:nowrap" class="ft60">&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft70{font-size:16px;font-family:Times;color:#000000;}
+	.ft71{font-size:16px;line-height:25px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page7-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="target007.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:146px;left:108px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:183px;left:135px;white-space:nowrap" class="ft70">17.&#160;Select&#160;preferred&#160;language&#160;and&#160;click&#160;next&#160;&#160;</p>
+<p style="position:absolute;top:221px;left:108px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:258px;left:108px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:296px;left:108px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:333px;left:108px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:371px;left:108px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:408px;left:108px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:446px;left:108px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:483px;left:108px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:521px;left:108px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:559px;left:135px;white-space:nowrap" class="ft70">18.&#160;Click&#160;“Install&#160;Now”&#160;</p>
+<p style="position:absolute;top:596px;left:162px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:634px;left:162px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:671px;left:162px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:709px;left:162px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:746px;left:162px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:784px;left:162px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:821px;left:162px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:859px;left:162px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:897px;left:162px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:934px;left:162px;white-space:nowrap" class="ft70">&#160;</p>
+<p style="position:absolute;top:972px;left:135px;white-space:nowrap" class="ft71">19.&#160;Before&#160;you&#160;click&#160;which&#160;version&#160;to&#160;install,&#160;we&#160;have&#160;to&#160;modify&#160;the&#160;registry&#160;<br/>20.&#160;Press&#160;shift&#160;+&#160;F10&#160;to&#160;pull&#160;up&#160;the&#160;command&#160;prompt&#160;and&#160;type&#160;“regedit”&#160;<br/>21.&#160;Next&#160;go&#160;to&#160;HKEY_LOCAL_MACHINE&#160;→&#160;SYSTEM&#160;→&#160;right&#160;click&#160;on&#160;setup&#160;then&#160;new&#160;and&#160;</p>
+<p style="position:absolute;top:1048px;left:162px;white-space:nowrap" class="ft70">key&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft80{font-size:16px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page8-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="target008.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:162px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:146px;left:135px;white-space:nowrap" class="ft80">22.&#160;Name&#160;the&#160;key&#160;“LabConfig”&#160;spelled&#160;this&#160;way&#160;with&#160;the&#160;capitals&#160;and&#160;no&#160;spaces&#160;</p>
+<p style="position:absolute;top:183px;left:108px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:221px;left:108px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:258px;left:108px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:296px;left:108px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:333px;left:162px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:371px;left:162px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:408px;left:162px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:446px;left:162px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:483px;left:162px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:521px;left:162px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:559px;left:135px;white-space:nowrap" class="ft80">23.&#160;Right&#160;click&#160;in&#160;the&#160;empty&#160;white&#160;space&#160;and&#160;select&#160;new&#160;dword&#160;32&#160;bit&#160;</p>
+<p style="position:absolute;top:584px;left:162px;white-space:nowrap" class="ft80">&#160;&#160;</p>
+<p style="position:absolute;top:622px;left:162px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:659px;left:135px;white-space:nowrap" class="ft80">24.&#160;Name&#160;this&#160;“ByPassTPMCheck”,&#160;again&#160;spelled&#160;this&#160;way&#160;</p>
+<p style="position:absolute;top:697px;left:108px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:734px;left:162px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:772px;left:162px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:809px;left:108px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:847px;left:108px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:885px;left:108px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:922px;left:108px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:960px;left:108px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:997px;left:108px;white-space:nowrap" class="ft80">&#160;</p>
+<p style="position:absolute;top:1035px;left:135px;white-space:nowrap" class="ft80">25.&#160;Double&#160;click&#160;the&#160;name&#160;and&#160;change&#160;the&#160;value&#160;to&#160;1&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft90{font-size:16px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page9-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="target009.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:135px;white-space:nowrap" class="ft90">26.&#160;Exit&#160;out&#160;of&#160;that&#160;and&#160;the&#160;command&#160;prompt&#160;</p>
+<p style="position:absolute;top:146px;left:162px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:183px;left:162px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:221px;left:162px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:258px;left:162px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:296px;left:162px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:333px;left:162px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:371px;left:162px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:408px;left:162px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:446px;left:162px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:483px;left:162px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:521px;left:162px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:559px;left:162px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:596px;left:135px;white-space:nowrap" class="ft90">27.&#160;Select&#160;Windows&#160;11&#160;Pro&#160;Education&#160;and&#160;hit&#160;next&#160;</p>
+<p style="position:absolute;top:634px;left:108px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:671px;left:108px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:709px;left:108px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:746px;left:108px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:784px;left:108px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:821px;left:108px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:859px;left:108px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:897px;left:108px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:934px;left:108px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:972px;left:108px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:1009px;left:108px;white-space:nowrap" class="ft90">&#160;</p>
+<p style="position:absolute;top:1047px;left:135px;white-space:nowrap" class="ft90">28.&#160;Click&#160;the&#160;I&#160;accept&#160;box&#160;and&#160;then&#160;click&#160;next&#160;&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft100{font-size:16px;font-family:Times;color:#000000;}
+	.ft101{font-size:16px;line-height:25px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page10-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="target010.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:135px;white-space:nowrap" class="ft100">29.&#160;Click&#160;custom&#160;install&#160;&#160;</p>
+<p style="position:absolute;top:146px;left:108px;white-space:nowrap" class="ft100">&#160;</p>
+<p style="position:absolute;top:183px;left:108px;white-space:nowrap" class="ft100">&#160;</p>
+<p style="position:absolute;top:221px;left:108px;white-space:nowrap" class="ft100">&#160;</p>
+<p style="position:absolute;top:258px;left:108px;white-space:nowrap" class="ft100">&#160;</p>
+<p style="position:absolute;top:296px;left:108px;white-space:nowrap" class="ft100">&#160;</p>
+<p style="position:absolute;top:333px;left:108px;white-space:nowrap" class="ft100">&#160;</p>
+<p style="position:absolute;top:371px;left:108px;white-space:nowrap" class="ft100">&#160;</p>
+<p style="position:absolute;top:408px;left:108px;white-space:nowrap" class="ft100">&#160;</p>
+<p style="position:absolute;top:446px;left:108px;white-space:nowrap" class="ft100">&#160;</p>
+<p style="position:absolute;top:483px;left:108px;white-space:nowrap" class="ft100">&#160;</p>
+<p style="position:absolute;top:521px;left:108px;white-space:nowrap" class="ft100">&#160;</p>
+<p style="position:absolute;top:559px;left:135px;white-space:nowrap" class="ft101">30.&#160;Select&#160;your&#160;80&#160;GBhard&#160;drive&#160;and&#160;hit&#160;next&#160;<br/>31.&#160;Wait&#160;for&#160;it&#160;to&#160;install&#160;(takes&#160;about&#160;10-15&#160;minutes)&#160;</p>
+<p style="position:absolute;top:622px;left:108px;white-space:nowrap" class="ft100">&#160;</p>
+<p style="position:absolute;top:659px;left:162px;white-space:nowrap" class="ft101">&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;</p>
+<p style="position:absolute;top:1042px;left:135px;white-space:nowrap" class="ft100">32.&#160;Click&#160;your&#160;country/region&#160;and&#160;click&#160;Yes&#160;(Make&#160;sure&#160;it&#160;is&#160;selected&#160;as&#160;United&#160;States)&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft110{font-size:16px;font-family:Times;color:#000000;}
+	.ft111{font-size:16px;line-height:25px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page11-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="target011.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:162px;white-space:nowrap" class="ft111">&#160;<br/>&#160;</p>
+<p style="position:absolute;top:171px;left:162px;white-space:nowrap" class="ft110">&#160;</p>
+<p style="position:absolute;top:209px;left:162px;white-space:nowrap" class="ft111">&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;</p>
+<p style="position:absolute;top:643px;left:135px;white-space:nowrap" class="ft110">33.&#160;Select&#160;input&#160;method&#160;and&#160;click&#160;yes&#160;and&#160;hit&#160;skip&#160;when&#160;it&#160;asks&#160;to&#160;add&#160;a&#160;second&#160;</p>
+<p style="position:absolute;top:668px;left:162px;white-space:nowrap" class="ft111">keyboard&#160;layout&#160;&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;<br/>&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft120{font-size:16px;font-family:Times;color:#000000;}
+	.ft121{font-size:16px;line-height:25px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page12-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="target012.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:162px;white-space:nowrap" class="ft121">&#160;<br/>&#160;<br/>&#160;</p>
+<p style="position:absolute;top:185px;left:135px;white-space:nowrap" class="ft120">34.&#160;Name&#160;your&#160;device&#160;Win11Group#&#160;&#160;(appropriate&#160;group&#160;number&#160;for&#160;your&#160;group)&#160;</p>
+<p style="position:absolute;top:210px;left:162px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:248px;left:108px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:285px;left:108px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:323px;left:108px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:360px;left:108px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:398px;left:108px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:435px;left:108px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:473px;left:108px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:510px;left:108px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:548px;left:108px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:586px;left:108px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:623px;left:108px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:661px;left:108px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:698px;left:108px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:736px;left:135px;white-space:nowrap" class="ft120">35.&#160;Select&#160;set&#160;up&#160;for&#160;work&#160;or&#160;school&#160;click&#160;next&#160;&#160;</p>
+<p style="position:absolute;top:773px;left:162px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:811px;left:162px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:848px;left:162px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:886px;left:162px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:924px;left:162px;white-space:nowrap" class="ft120">&#160;</p>
+<p style="position:absolute;top:961px;left:135px;white-space:nowrap" class="ft121">36.&#160;Click&#160;the&#160;sign&#160;in&#160;options&#160;below&#160;where&#160;it&#160;says&#160;to&#160;sign&#160;in&#160;&#160;<br/>37.&#160;Select&#160;the&#160;domain&#160;option&#160;&#160;</p>
+<p style="position:absolute;top:1024px;left:162px;white-space:nowrap" class="ft120">&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft130{font-size:16px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page13-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="target013.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:146px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:183px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:221px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:258px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:296px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:333px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:371px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:408px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:446px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:483px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:521px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:559px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:596px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:634px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:671px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:709px;left:135px;white-space:nowrap" class="ft130">38.&#160;Set&#160;the&#160;name&#160;to&#160;Group#user&#160;and&#160;click&#160;next&#160;</p>
+<p style="position:absolute;top:746px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:784px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:821px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:859px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:897px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:934px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:972px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:1009px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+<p style="position:absolute;top:1047px;left:108px;white-space:nowrap" class="ft130">&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft140{font-size:16px;font-family:Times;color:#000000;}
+	.ft141{font-size:16px;line-height:25px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page14-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="target014.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:146px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:183px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:221px;left:135px;white-space:nowrap" class="ft141">39.&#160;Make&#160;the&#160;password,&#160;“Rajah424!”,&#160;and&#160;click&#160;next&#160;<br/>40.&#160;Confirm&#160;the&#160;password&#160;and&#160;then&#160;click&#160;next&#160;</p>
+<p style="position:absolute;top:284px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:321px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:359px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:396px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:434px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:471px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:509px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:547px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:584px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:622px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:659px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:697px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:734px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:772px;left:135px;white-space:nowrap" class="ft140">41.&#160;Answer&#160;a&#160;security&#160;question&#160;and&#160;click&#160;next&#160;do&#160;this&#160;for&#160;all&#160;three&#160;questions&#160;&#160;</p>
+<p style="position:absolute;top:809px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:847px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:885px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:922px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:960px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:997px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+<p style="position:absolute;top:1035px;left:108px;white-space:nowrap" class="ft140">&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft150{font-size:16px;font-family:Times;color:#000000;}
+	.ft151{font-size:22px;font-family:Times;color:#000000;}
+	.ft152{font-size:16px;line-height:25px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page15-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="target015.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft150">&#160;</p>
+<p style="position:absolute;top:146px;left:108px;white-space:nowrap" class="ft150">&#160;</p>
+<p style="position:absolute;top:183px;left:108px;white-space:nowrap" class="ft150">&#160;</p>
+<p style="position:absolute;top:221px;left:108px;white-space:nowrap" class="ft150">&#160;</p>
+<p style="position:absolute;top:258px;left:135px;white-space:nowrap" class="ft150">42.&#160;Click&#160;Next&#160;and&#160;wait&#160;for&#160;it&#160;to&#160;load&#160;(might&#160;take&#160;a&#160;few&#160;minutes)&#160;</p>
+<p style="position:absolute;top:296px;left:108px;white-space:nowrap" class="ft150">&#160;</p>
+<p style="position:absolute;top:333px;left:108px;white-space:nowrap" class="ft151"><b>Licensing&#160;the&#160;machine:&#160;</b></p>
+<p style="position:absolute;top:380px;left:108px;white-space:nowrap" class="ft150">&#160;</p>
+<p style="position:absolute;top:417px;left:108px;white-space:nowrap" class="ft150">&#160;</p>
+<p style="position:absolute;top:455px;left:108px;white-space:nowrap" class="ft150">&#160;</p>
+<p style="position:absolute;top:492px;left:108px;white-space:nowrap" class="ft150">&#160;</p>
+<p style="position:absolute;top:530px;left:108px;white-space:nowrap" class="ft150">&#160;</p>
+<p style="position:absolute;top:567px;left:108px;white-space:nowrap" class="ft150">&#160;</p>
+<p style="position:absolute;top:605px;left:108px;white-space:nowrap" class="ft150">&#160;</p>
+<p style="position:absolute;top:642px;left:108px;white-space:nowrap" class="ft150">&#160;</p>
+<p style="position:absolute;top:680px;left:108px;white-space:nowrap" class="ft150">&#160;</p>
+<p style="position:absolute;top:718px;left:108px;white-space:nowrap" class="ft150">&#160;</p>
+<p style="position:absolute;top:755px;left:108px;white-space:nowrap" class="ft150">&#160;</p>
+<p style="position:absolute;top:793px;left:135px;white-space:nowrap" class="ft150">43.&#160;Next,&#160;license&#160;the&#160;machine&#160;by&#160;going&#160;to&#160;settings&#160;→&#160;system&#160;→&#160;activation&#160;and&#160;edit&#160;the&#160;</p>
+<p style="position:absolute;top:818px;left:162px;white-space:nowrap" class="ft150">product&#160;key&#160;and&#160;type&#160;in&#160;GY3NJ-CGTT9-MJKBK-VQRP3-4GFBQ&#160;</p>
+<p style="position:absolute;top:844px;left:135px;white-space:nowrap" class="ft152">44.&#160;Shut&#160;down&#160;the&#160;VM&#160;<br/>45.&#160;Now&#160;install&#160;vmware&#160;tools&#160;&#160;</p>
+<p style="position:absolute;top:895px;left:108px;white-space:nowrap" class="ft152">&#160;<br/>&#160;<br/>&#160;<br/>&#160;</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft160{font-size:16px;font-family:Times;color:#000000;}
+	.ft161{font-size:16px;line-height:25px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page16-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="target016.png" alt="background image"/>
+<p style="position:absolute;top:234px;left:810px;white-space:nowrap" class="ft160">&#160;</p>
+<p style="position:absolute;top:254px;left:135px;white-space:nowrap" class="ft161">46.&#160;Go&#160;back&#160;into&#160;vmware&#160;and&#160;under&#160;your&#160;VM&#160;screen&#160;will&#160;be&#160;vmware&#160;tools&#160;<br/>47.&#160;&#160;Go&#160;to&#160;actions&#160;→guest&#160;OS&#160;→&#160;install&#160;vmware&#160;tools&#160;<br/>48.&#160;Boot&#160;the&#160;VM&#160;back&#160;up&#160;and&#160;log&#160;in&#160;&#160;</p>
+<p style="position:absolute;top:330px;left:108px;white-space:nowrap" class="ft160">&#160;</p>
+<p style="position:absolute;top:847px;left:789px;white-space:nowrap" class="ft160">&#160;</p>
+<p style="position:absolute;top:867px;left:108px;white-space:nowrap" class="ft161">&#160;<br/>&#160;</p>
+<p style="position:absolute;top:918px;left:135px;white-space:nowrap" class="ft161">49.&#160;Go&#160;to&#160;file&#160;explorer&#160;and&#160;go&#160;down&#160;to&#160;DVD&#160;drive&#160;(D:)&#160;VMware&#160;tools&#160;&#160;<br/>50.&#160;Click&#160;on&#160;that&#160;and&#160;hit&#160;setup&#160;then&#160;click&#160;yes&#160;to&#160;install&#160;&#160;<br/>51.&#160;Once&#160;done&#160;click&#160;finish&#160;and&#160;restart&#160;</p>
+<p style="position:absolute;top:994px;left:108px;white-space:nowrap" class="ft160">&#160;</p>
+</div>
+</body>
+</html>

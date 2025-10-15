@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Server Setup Guide</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: white; /* removes the grey space */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .page {
+      position: relative;
+      width: 918px;
+      margin: 20px auto;
+    }
+    .home-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #0732f8;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <a href="index.html" class="home-button">Return Home</a>
+<div class="page" <div id="page1-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="d1.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft10">Group&#160;1&#160;Web&#160;Server&#160;Setup&#160;</p>
+<p style="position:absolute;top:146px;left:108px;white-space:nowrap" class="ft10">(Benjamin&#160;Gustafson,&#160;Joshua&#160;Ardellitz,&#160;Jonathan&#160;Puddie)&#160;</p>
+<p style="position:absolute;top:183px;left:108px;white-space:nowrap" class="ft12"><i><b>IIS&#160;Setup&#160;<br/></b></i>1.&#160;In&#160;the&#160;Windows&#160;Server&#160;VM,&#160;open&#160;“Server&#160;Manager”&#160;</p>
+<p style="position:absolute;top:548px;left:777px;white-space:nowrap" class="ft10">&#160;</p>
+<p style="position:absolute;top:581px;left:108px;white-space:nowrap" class="ft10">2.&#160;Select&#160;“Add&#160;roles&#160;and&#160;features”&#160;&#160;</p>
+<p style="position:absolute;top:619px;left:108px;white-space:nowrap" class="ft10">3.&#160;Click&#160;“Next”&#160;until&#160;you&#160;reach&#160;“Server&#160;Roles”&#160;</p>
+<p style="position:absolute;top:970px;left:613px;white-space:nowrap" class="ft10">&#160;</p>
+<p style="position:absolute;top:1002px;left:108px;white-space:nowrap" class="ft10">4.&#160;Under&#160;“Server&#160;Roles”,&#160;select&#160;“Web&#160;Server&#160;(IIS)”,&#160;and&#160;select&#160;“Add&#160;Features”&#160;&#160;</p>
+<p style="position:absolute;top:1040px;left:108px;white-space:nowrap" class="ft10">&#160;</p>
+</div><div class="page" <div id="page2-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="d2.png" alt="background image"/>
+<p style="position:absolute;top:455px;left:618px;white-space:nowrap" class="ft20">&#160;</p>
+<p style="position:absolute;top:487px;left:108px;white-space:nowrap" class="ft20">5.&#160;Keep&#160;clicking&#160;“Next”&#160;until&#160;you&#160;reach&#160;“Confirmation”&#160;&#160;</p>
+<p style="position:absolute;top:524px;left:108px;white-space:nowrap" class="ft20">-&#160;Select&#160;“Install”&#160;&#160;</p>
+<p style="position:absolute;top:931px;left:660px;white-space:nowrap" class="ft20">&#160;</p>
+<p style="position:absolute;top:963px;left:108px;white-space:nowrap" class="ft20">6.&#160;Once&#160;done&#160;installing,&#160;go&#160;to&#160;a&#160;browser&#160;and&#160;search&#160;“127.0.0.1”&#160;to&#160;verify&#160;IIS&#160;is&#160;working&#160;&#160;</p>
+<p style="position:absolute;top:1000px;left:108px;white-space:nowrap" class="ft20">&#160;</p>
+<p style="position:absolute;top:1038px;left:108px;white-space:nowrap" class="ft20">&#160;</p>
+</div><div class="page" <div id="page3-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="d3.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:108px;white-space:nowrap" class="ft30"><i><b>Installing&#160;Apache&#160;</b></i></p>
+<p style="position:absolute;top:516px;left:606px;white-space:nowrap" class="ft31">&#160;</p>
+<p style="position:absolute;top:548px;left:135px;white-space:nowrap" class="ft31">1.&#160;&#160;In&#160;Linux,&#160;open&#160;“Terminal”&#160;</p>
+<p style="position:absolute;top:967px;left:690px;white-space:nowrap" class="ft31">&#160;</p>
+<p style="position:absolute;top:999px;left:135px;white-space:nowrap" class="ft31">2.&#160;&#160;Enter&#160;“sudo&#160;apt&#160;install&#160;apache2”,&#160;and&#160;press&#160;enter&#160;once&#160;finished&#160;</p>
+<p style="position:absolute;top:1025px;left:162px;white-space:nowrap" class="ft32">-&#160;&#160;Enter&#160;your&#160;password&#160;when&#160;prompted&#160;&#160;<br/>-&#160;&#160;Enter&#160;“Y”&#160;when&#160;prompted&#160;to&#160;continue&#160;</p>
+</div><div class="page" <div id="page4-div" style="position:relative;width:918px;height:1188px;">
+<img width="918" height="1188" src="d4.png" alt="background image"/>
+<p style="position:absolute;top:108px;left:135px;white-space:nowrap" class="ft40">3.&#160;&#160;Once&#160;done&#160;installing,&#160;search&#160;“127.0.0.1”&#160;in&#160;a&#160;web&#160;browser&#160;to&#160;verify&#160;Apache2&#160;</p>
+<p style="position:absolute;top:134px;left:162px;white-space:nowrap" class="ft40">installed&#160;</p>
+<p style="position:absolute;top:505px;left:795px;white-space:nowrap" class="ft40">&#160;</p>
+<p style="position:absolute;top:538px;left:135px;white-space:nowrap" class="ft40">4.&#160;&#160;If&#160;Apache2&#160;installed,&#160;this&#160;is&#160;the&#160;screen&#160;that&#160;should&#160;appear&#160;&#160;</p>
+</div>
+</body>
+</html>
